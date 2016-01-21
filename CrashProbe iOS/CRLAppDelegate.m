@@ -25,12 +25,14 @@
  */
 
 #import "CRLAppDelegate.h"
+#import <Bugsnag/Bugsnag.h>
 
 @implementation CRLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  return YES;
+    [Bugsnag startBugsnagWithApiKey:@"API-KEY"];
+    return YES;
 }
 
 @end

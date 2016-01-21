@@ -24,6 +24,7 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
+#import <Bugsnag/Bugsnag.h>
 #import "CRLAppDelegate.h"
 #import "CRLMainWindowController.h"
 
@@ -40,6 +41,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    [Bugsnag startBugsnagWithApiKey:@"API-KEY"];
 	self.windowController = [[CRLMainWindowController alloc] init];
 	[(self.window = self.windowController.window) makeKeyAndOrderFront:self];
 }

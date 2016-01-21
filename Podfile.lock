@@ -1,0 +1,12 @@
+PODS:
+  - Bugsnag (4.1.0):
+    - Bugsnag/no-arc (= 4.1.0)
+  - Bugsnag/no-arc (4.1.0)
+
+DEPENDENCIES:
+  - Bugsnag
+
+SPEC CHECKSUMS:
+  Bugsnag: 4c3f744efa9d76d9b17fddbc940e881436464cee
+
+COCOAPODS: 0.39.0

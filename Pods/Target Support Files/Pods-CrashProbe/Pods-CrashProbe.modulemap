@@ -1,0 +1,6 @@
+framework module Pods_CrashProbe {
+  umbrella header "Pods-CrashProbe-umbrella.h"
+
+  export *
+  module * { export * }
+}
