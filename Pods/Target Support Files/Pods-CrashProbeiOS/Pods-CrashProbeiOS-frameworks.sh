@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug_DoNotUse" ]]; then
   install_framework "Pods-CrashProbeiOS/Bugsnag.framework"
+  install_framework "Pods-CrashProbeiOS/KSCrash.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-CrashProbeiOS/Bugsnag.framework"
+  install_framework "Pods-CrashProbeiOS/KSCrash.framework"
 fi

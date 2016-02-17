@@ -1,12 +1,63 @@
 PODS:
-  - Bugsnag (4.1.0):
-    - Bugsnag/no-arc (= 4.1.0)
-  - Bugsnag/no-arc (4.1.0)
+  - Bugsnag (5.0.0):
+    - KSCrash/Recording (~> 1.0.1)
+    - KSCrash/Reporting (~> 1.0.1)
+  - KSCrash/no-arc (1.0.1)
+  - KSCrash/Recording (1.0.1):
+    - KSCrash/no-arc
+  - KSCrash/Reporting (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters (= 1.0.1)
+    - KSCrash/Reporting/MessageUI (= 1.0.1)
+    - KSCrash/Reporting/Sinks (= 1.0.1)
+    - KSCrash/Reporting/Tools (= 1.0.1)
+  - KSCrash/Reporting/Filters (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Alert (= 1.0.1)
+    - KSCrash/Reporting/Filters/AppleFmt (= 1.0.1)
+    - KSCrash/Reporting/Filters/Base (= 1.0.1)
+    - KSCrash/Reporting/Filters/Basic (= 1.0.1)
+    - KSCrash/Reporting/Filters/GZip (= 1.0.1)
+    - KSCrash/Reporting/Filters/JSON (= 1.0.1)
+    - KSCrash/Reporting/Filters/Sets (= 1.0.1)
+  - KSCrash/Reporting/Filters/Alert (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/AppleFmt (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (1.0.1):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/GZip (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/JSON (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Sets (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/AppleFmt
+    - KSCrash/Reporting/Filters/Base
+    - KSCrash/Reporting/Filters/Basic
+    - KSCrash/Reporting/Filters/GZip
+    - KSCrash/Reporting/Filters/JSON
+  - KSCrash/Reporting/MessageUI (1.0.1):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Sinks (1.0.1):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters
+    - KSCrash/Reporting/Tools
+  - KSCrash/Reporting/Tools (1.0.1):
+    - KSCrash/Recording
 
 DEPENDENCIES:
   - Bugsnag
 
 SPEC CHECKSUMS:
-  Bugsnag: 4c3f744efa9d76d9b17fddbc940e881436464cee
+  Bugsnag: 13e5d2782d003809d60aca6da6889cd2514a5c41
+  KSCrash: 0ce2e01085d4c4e4dc915ab4adf01d7628069570
 
 COCOAPODS: 0.39.0

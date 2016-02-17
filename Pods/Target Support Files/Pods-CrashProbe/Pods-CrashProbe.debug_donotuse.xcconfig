@@ -3,7 +3,7 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_FRAMEWORK_BUILD_PATH"
 GCC_ENABLE_CPP_EXCEPTIONS = YES
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_FRAMEWORK_BUILD_PATH/Bugsnag.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Bugsnag"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_FRAMEWORK_BUILD_PATH/Bugsnag.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/KSCrash.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Bugsnag" -framework "KSCrash"
 PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CrashProbe
 PODS_ROOT = ${SRCROOT}/Pods
