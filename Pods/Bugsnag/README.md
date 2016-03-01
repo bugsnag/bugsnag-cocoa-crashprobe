@@ -1,9 +1,9 @@
-Bugsnag Notifier for Cocoa <img src="https://travis-ci.org/bugsnag/bugsnag-cocoa.svg?branch=master" alt="build status" class="build-status">
+Bugsnag Notifier for Cocoa <a href="https://travis-ci.org/bugsnag/bugsnag-cocoa"><img src="https://travis-ci.org/bugsnag/bugsnag-cocoa.svg?branch=master" alt="build status" class="build-status"></a>
 ==========================
 
 The Bugsnag Notifier for Cocoa gives you instant notification of exceptions
-thrown from your **iOS** 7.0+ or **OS X** applications. The notifier hooks into
-`NSSetUncaughtExceptionHandler`, which means any uncaught exceptions will
+thrown from your **iOS** 6.0+ or **OS X** 10.8+ applications. The notifier hooks
+into `NSSetUncaughtExceptionHandler`, which means any uncaught exceptions will
 trigger a notification to be sent to your Bugsnag dashboard. Bugsnag will also
 monitor for fatal signals sent to your application such as Segmentation
 Faults.
@@ -59,7 +59,7 @@ library.
 1.  Add Bugsnag to your `Podfile`
 
     ```ruby
-    pod 'Bugsnag', :git => "https://github.com/bugsnag/bugsnag-cocoa.git"
+    pod 'Bugsnag'
 
     ```
 
@@ -68,7 +68,7 @@ library.
 
     ```ruby
     use_frameworks!
-    pod 'Bugsnag', :git => "https://github.com/bugsnag/bugsnag-cocoa.git"
+    pod 'Bugsnag'
     ```
 
 2.  Install Bugsnag
