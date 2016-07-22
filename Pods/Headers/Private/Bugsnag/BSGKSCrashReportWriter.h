@@ -1,1 +1,1 @@
-../../../Bugsnag/Source/BSGKSCrashReportWriter.h
+../../../../../bugsnag-cocoa/Source/BSGKSCrashReportWriter.h

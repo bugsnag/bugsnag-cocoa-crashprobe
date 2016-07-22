@@ -1,1 +1,1 @@
-../../../Bugsnag/Source/BugsnagNotifier.h
+../../../../../bugsnag-cocoa/Source/BugsnagNotifier.h

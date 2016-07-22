@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "06E47177B28120A27CA00DE9F89740860A6B47A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "06E47177B28120A27CA00DE9F89740860A6B47A9" : 0,
+    "C4519EFDD2C3B96E9BD67A5CED575450FFB87C90" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "790684F6-B827-4220-AF9B-DB5BCB2F4EB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "06E47177B28120A27CA00DE9F89740860A6B47A9" : "bugsnag-cocoa-crashprobe\/",
+    "C4519EFDD2C3B96E9BD67A5CED575450FFB87C90" : "bugsnag-cocoa\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CrashProbe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CrashProbe.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bugsnag\/bugsnag-cocoa-crashprobe",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "06E47177B28120A27CA00DE9F89740860A6B47A9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bugsnag\/bugsnag-cocoa",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4519EFDD2C3B96E9BD67A5CED575450FFB87C90"
+    }
+  ]
+}
