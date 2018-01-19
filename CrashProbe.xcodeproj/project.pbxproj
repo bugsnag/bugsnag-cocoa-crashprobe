@@ -10,7 +10,6 @@
 		051F1A0B189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 051F1A09189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594494018A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594493E18A1441600CD93A8 /* CRLCrashStackGuard.m */; };
-		10C76005C29406F62A460989 /* Pods_CrashProbe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C819B54072ACDC0C0B455CF /* Pods_CrashProbe.framework */; };
 		1E12D703191FBED600C74365 /* CRLCrashAsyncSafeThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E12D704191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */; };
 		1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773297189B183B00EB3F5A /* SystemConfiguration.framework */; };
@@ -24,8 +23,10 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
+		2299296ED056022B46B3378C /* Pods_CrashProbeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028EDA58ECFB3430745BA75A /* Pods_CrashProbeiOS.framework */; };
+		2ACEAECF5D15A6C5D3027B6F /* Pods_CrashProbe_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6157A9E82E2506CC380D75 /* Pods_CrashProbe_tvOS.framework */; };
+		555A3ADD858149069E38AE39 /* Pods_CrashProbe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D4B4EFA2F4BF17F2D39EB2 /* Pods_CrashProbe.framework */; };
 		8A1D3B831C5AEFBC0010406E /* CRLApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D3B821C5AEFBC0010406E /* CRLApplication.m */; };
-		8AA7FCC6FF271ADE18FDC905 /* Pods_CrashProbeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582E52FBE9219A6A7E11DB67 /* Pods_CrashProbeiOS.framework */; };
 		8AB151491D416C7100C9B218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB151481D416C7100C9B218 /* main.m */; };
 		8AB1514C1D416C7100C9B218 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1514B1D416C7100C9B218 /* AppDelegate.m */; };
 		8AB1514F1D416C7200C9B218 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1514E1D416C7200C9B218 /* ViewController.m */; };
@@ -84,7 +85,6 @@
 		8AB1519F1D4170FF00C9B218 /* CRLCrashSmashStackTop.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5BB5116F4F5F6008BDDDF /* CRLCrashSmashStackTop.m */; };
 		8AB151A01D4170FF00C9B218 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		8AB151A11D4170FF00C9B218 /* CrashLib-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = FAAC52E51A030B9E00451D90 /* CrashLib-Bridging-Header.h */; };
-		CD1F681FBFFEFAF415EA67BF /* Pods_CrashProbe_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA422AE2168A9A9251FF5A20 /* Pods_CrashProbe_tvOS.framework */; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
 		FAAC52E71A030B9E00451D90 /* CRLCrashSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC52E61A030B9E00451D90 /* CRLCrashSwift.swift */; };
 		FAB374D116DBEAF00039B8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB374D016DBEAF00039B8AE /* main.m */; };
@@ -269,6 +269,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		028EDA58ECFB3430745BA75A /* Pods_CrashProbeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B73061F63F489C0DE2DDE2 /* Pods-CrashProbe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe/Pods-CrashProbe.release.xcconfig"; sourceTree = "<group>"; };
 		051F1A09189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashOverwriteLinkRegister.h; path = ../CrashProbe/CRLCrashOverwriteLinkRegister.h; sourceTree = "<group>"; };
 		051F1A0A189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashOverwriteLinkRegister.m; path = ../CrashProbe/CRLCrashOverwriteLinkRegister.m; sourceTree = "<group>"; };
 		0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashStackGuard.h; path = CrashProbe/CRLCrashStackGuard.h; sourceTree = SOURCE_ROOT; };
@@ -279,8 +281,7 @@
 		05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_arm64.s; path = CrashProbe/CRLFramelessDWARF_arm64.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_i386.s; path = CrashProbe/CRLFramelessDWARF_i386.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_x86_64.s; path = ../CrashProbe/CRLFramelessDWARF_x86_64.s; sourceTree = "<group>"; };
-		1A0154F085EA83B6A0C2955A /* Pods-CrashProbe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe/Pods-CrashProbe.release.xcconfig"; sourceTree = "<group>"; };
-		1A0F855F12C3A9293330FD01 /* Pods-CrashProbe tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		09D4B4EFA2F4BF17F2D39EB2 /* Pods_CrashProbe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashAsyncSafeThread.h; path = CrashProbe/CRLCrashAsyncSafeThread.h; sourceTree = SOURCE_ROOT; };
 		1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashAsyncSafeThread.m; path = CrashProbe/CRLCrashAsyncSafeThread.m; sourceTree = SOURCE_ROOT; };
 		1E1789DF189B15CF00CE4C53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -302,11 +303,7 @@
 		1ECAB6EA1922B1C70005D14E /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
 		1ECAB6F11922B49D0005D14E /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		1ECAB6F31922B4A30005D14E /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
-		3B3D191612E435ABDBB2714C /* Pods-CrashProbeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbeiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS.release.xcconfig"; sourceTree = "<group>"; };
-		4C819B54072ACDC0C0B455CF /* Pods_CrashProbe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		582E52FBE9219A6A7E11DB67 /* Pods_CrashProbeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		646AA21F91818662F17BED8B /* Pods-CrashProbeiOS.debug_donotuse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbeiOS.debug_donotuse.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS.debug_donotuse.xcconfig"; sourceTree = "<group>"; };
-		7B79CFC6631F62CBE3EB410B /* Pods-CrashProbe.debug_donotuse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe.debug_donotuse.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe/Pods-CrashProbe.debug_donotuse.xcconfig"; sourceTree = "<group>"; };
+		64D08742C62587BF3CB006A6 /* Pods-CrashProbeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbeiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS.release.xcconfig"; sourceTree = "<group>"; };
 		8A1D3B811C5AEFBC0010406E /* CRLApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRLApplication.h; sourceTree = "<group>"; };
 		8A1D3B821C5AEFBC0010406E /* CRLApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRLApplication.m; sourceTree = "<group>"; };
 		8AB151451D416C7100C9B218 /* CrashProbe tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrashProbe tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -320,8 +317,11 @@
 		8AB151551D416C7200C9B218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AB151631D4170D900C9B218 /* CrashLibtvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrashLibtvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB151671D4170DA00C9B218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA422AE2168A9A9251FF5A20 /* Pods_CrashProbe_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbe_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D775A1287704B0A96469C4CE /* Pods-CrashProbe tvOS.debug_donotuse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe tvOS.debug_donotuse.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS.debug_donotuse.xcconfig"; sourceTree = "<group>"; };
+		8CEC95D384FFB2872C89B8F8 /* Pods-CrashProbeiOS.debug_donotuse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbeiOS.debug_donotuse.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS.debug_donotuse.xcconfig"; sourceTree = "<group>"; };
+		9D5523979B00138C44463F49 /* Pods-CrashProbe.debug_donotuse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe.debug_donotuse.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe/Pods-CrashProbe.debug_donotuse.xcconfig"; sourceTree = "<group>"; };
+		9D6157A9E82E2506CC380D75 /* Pods_CrashProbe_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashProbe_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB44210FA21D6CA491A24C8 /* Pods-CrashProbe tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D05C825F73AEE75D2285D24E /* Pods-CrashProbe tvOS.debug_donotuse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashProbe tvOS.debug_donotuse.xcconfig"; path = "Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS.debug_donotuse.xcconfig"; sourceTree = "<group>"; };
 		FA4391E4170F113B00801CAB /* CrashLib-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashLib-iOS-Info.plist"; sourceTree = "<group>"; };
 		FA4391E6170F113B00801CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4391E8170F113B00801CAB /* CrashLib-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashLib-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -417,7 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB1516A1D4170DA00C9B218 /* CrashLibtvOS.framework in Frameworks */,
-				CD1F681FBFFEFAF415EA67BF /* Pods_CrashProbe_tvOS.framework in Frameworks */,
+				2ACEAECF5D15A6C5D3027B6F /* Pods_CrashProbe_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +451,7 @@
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
-				8AA7FCC6FF271ADE18FDC905 /* Pods_CrashProbeiOS.framework in Frameworks */,
+				2299296ED056022B46B3378C /* Pods_CrashProbeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +461,7 @@
 			files = (
 				FACDBAF1170F0DD60059F0A7 /* CrashLib.framework in Frameworks */,
 				FAF9BCB916D2924500C8BB7D /* Cocoa.framework in Frameworks */,
-				10C76005C29406F62A460989 /* Pods_CrashProbe.framework in Frameworks */,
+				555A3ADD858149069E38AE39 /* Pods_CrashProbe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +485,19 @@
 				1E1789E9189B15CF00CE4C53 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		312731FDDF0AF06A5EA1B49A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D5523979B00138C44463F49 /* Pods-CrashProbe.debug_donotuse.xcconfig */,
+				04B73061F63F489C0DE2DDE2 /* Pods-CrashProbe.release.xcconfig */,
+				D05C825F73AEE75D2285D24E /* Pods-CrashProbe tvOS.debug_donotuse.xcconfig */,
+				BEB44210FA21D6CA491A24C8 /* Pods-CrashProbe tvOS.release.xcconfig */,
+				8CEC95D384FFB2872C89B8F8 /* Pods-CrashProbeiOS.debug_donotuse.xcconfig */,
+				64D08742C62587BF3CB006A6 /* Pods-CrashProbeiOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8AB151461D416C7100C9B218 /* CrashProbe tvOS */ = {
@@ -655,7 +668,7 @@
 				8AB151461D416C7100C9B218 /* CrashProbe tvOS */,
 				FAF9BCB716D2924500C8BB7D /* Frameworks */,
 				FAF9BCB616D2924500C8BB7D /* Products */,
-				FBF9D66550F21CC12529DBD6 /* Pods */,
+				312731FDDF0AF06A5EA1B49A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -685,9 +698,9 @@
 				FAF9BCB816D2924500C8BB7D /* Cocoa.framework */,
 				FAF9BCD616D2924500C8BB7D /* SenTestingKit.framework */,
 				1E1789DF189B15CF00CE4C53 /* XCTest.framework */,
-				4C819B54072ACDC0C0B455CF /* Pods_CrashProbe.framework */,
-				582E52FBE9219A6A7E11DB67 /* Pods_CrashProbeiOS.framework */,
-				CA422AE2168A9A9251FF5A20 /* Pods_CrashProbe_tvOS.framework */,
+				09D4B4EFA2F4BF17F2D39EB2 /* Pods_CrashProbe.framework */,
+				9D6157A9E82E2506CC380D75 /* Pods_CrashProbe_tvOS.framework */,
+				028EDA58ECFB3430745BA75A /* Pods_CrashProbeiOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -721,19 +734,6 @@
 				FAF9BCC716D2924500C8BB7D /* Credits.rtf */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FBF9D66550F21CC12529DBD6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7B79CFC6631F62CBE3EB410B /* Pods-CrashProbe.debug_donotuse.xcconfig */,
-				1A0154F085EA83B6A0C2955A /* Pods-CrashProbe.release.xcconfig */,
-				646AA21F91818662F17BED8B /* Pods-CrashProbeiOS.debug_donotuse.xcconfig */,
-				3B3D191612E435ABDBB2714C /* Pods-CrashProbeiOS.release.xcconfig */,
-				D775A1287704B0A96469C4CE /* Pods-CrashProbe tvOS.debug_donotuse.xcconfig */,
-				1A0F855F12C3A9293330FD01 /* Pods-CrashProbe tvOS.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -837,13 +837,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AB151581D416C7200C9B218 /* Build configuration list for PBXNativeTarget "CrashProbe tvOS" */;
 			buildPhases = (
-				C9C8A62239DC86072C7F9E1D /* Check Pods Manifest.lock */,
+				EEA99CAAF56AE3096CEDDFA0 /* [CP] Check Pods Manifest.lock */,
 				8AB151411D416C7100C9B218 /* Sources */,
 				8AB151421D416C7100C9B218 /* Frameworks */,
 				8AB151431D416C7100C9B218 /* Resources */,
 				8AB1515D1D416F0400C9B218 /* Embed Frameworks */,
-				86788804D8B8E1A7EA069836 /* Embed Pods Frameworks */,
-				30A83757E11B024491E15BBD /* Copy Pods Resources */,
+				027F8C03086FC50203B9A334 /* [CP] Embed Pods Frameworks */,
+				E79266F1BF4DA35B66A12DF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -915,14 +915,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF5BB8916F7A69C008BDDDF /* Build configuration list for PBXNativeTarget "CrashProbeiOS" */;
 			buildPhases = (
-				B3A68A9C4198F479064B1912 /* Check Pods Manifest.lock */,
+				1F0CCD9BE4866855FC69990D /* [CP] Check Pods Manifest.lock */,
 				FAF5BB6316F7A69C008BDDDF /* Sources */,
 				FAF5BB6416F7A69C008BDDDF /* Frameworks */,
 				FAF5BB6516F7A69C008BDDDF /* Resources */,
 				FAE0240B1A0322C3006CC3EE /* Embed Frameworks */,
 				BFAEFC3400616F0A5E03D340 /* Upload Bugsnag dSYM */,
-				6B79BF694796A8FF1D6BBFA3 /* Embed Pods Frameworks */,
-				7A78DC65BBADA7490EDF5CFE /* Copy Pods Resources */,
+				D6CE15AF1E8E321714B05D8C /* [CP] Embed Pods Frameworks */,
+				C64B39A49EB963313215B488 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -938,14 +938,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF9BCE616D2924600C8BB7D /* Build configuration list for PBXNativeTarget "CrashProbe" */;
 			buildPhases = (
-				468AABF627503924C82642D5 /* Check Pods Manifest.lock */,
+				F80E3933C90E0306BA5971F8 /* [CP] Check Pods Manifest.lock */,
 				FAF9BCB116D2924500C8BB7D /* Sources */,
 				FAF9BCB216D2924500C8BB7D /* Frameworks */,
 				FAF9BCB316D2924500C8BB7D /* Resources */,
 				FAC6656D16EA5071008F0B0C /* Copy Frameworks */,
 				8BB418A390FB8A44404FB373 /* Upload Bugsnag dSYM */,
-				5BCF7B3ED0124C7ABF1F4168 /* Embed Pods Frameworks */,
-				C29762B08B5CED2110F70811 /* Copy Pods Resources */,
+				20E875BE33C7C07FDD43862E /* [CP] Embed Pods Frameworks */,
+				F81C8EE4212E41A2CC222B95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -978,6 +978,15 @@
 					};
 					FAAC52EF1A03137300451D90 = {
 						CreatedOnToolsVersion = 6.1;
+					};
+					FACDBAB1170F0BB60059F0A7 = {
+						LastSwiftMigration = 0830;
+					};
+					FAF5BB6616F7A69C008BDDDF = {
+						DevelopmentTeam = 372ZUL2ZB7;
+					};
+					FAF9BCB416D2924500C8BB7D = {
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -1092,45 +1101,54 @@
 			shellScript = "fork do\n  Process.setsid\n  STDIN.reopen(\"/dev/null\")\n  STDOUT.reopen(\"/dev/null\", \"a\")\n  STDERR.reopen(\"/dev/null\", \"a\")\n\n  require 'shellwords'\n\n  Dir[\"#{ENV[\"DWARF_DSYM_FOLDER_PATH\"]}/*/Contents/Resources/DWARF/*\"].each do |dsym|\n    system(\"curl -F dsym=@#{Shellwords.escape(dsym)} -F projectRoot=#{Shellwords.escape(ENV[\"PROJECT_DIR\"])} https://upload.bugsnag.com/\")\n  end\nend\n";
 			showEnvVarsInLog = 0;
 		};
-		30A83757E11B024491E15BBD /* Copy Pods Resources */ = {
+		027F8C03086FC50203B9A334 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bugsnag-tvOS/Bugsnag.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsnag.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		468AABF627503924C82642D5 /* Check Pods Manifest.lock */ = {
+		1F0CCD9BE4866855FC69990D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashProbeiOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5BCF7B3ED0124C7ABF1F4168 /* Embed Pods Frameworks */ = {
+		20E875BE33C7C07FDD43862E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbe/Pods-CrashProbe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bugsnag-macOS/Bugsnag.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsnag.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1152,51 +1170,6 @@
 			shellScript = "fork do\n  Process.setsid\n  STDIN.reopen(\"/dev/null\")\n  STDOUT.reopen(\"/dev/null\", \"a\")\n  STDERR.reopen(\"/dev/null\", \"a\")\n\n  require 'shellwords'\n\n  Dir[\"#{ENV[\"DWARF_DSYM_FOLDER_PATH\"]}/*/Contents/Resources/DWARF/*\"].each do |dsym|\n    system(\"curl -F dsym=@#{Shellwords.escape(dsym)} -F projectRoot=#{Shellwords.escape(ENV[\"PROJECT_DIR\"])} https://upload.bugsnag.com/\")\n  end\nend\n";
 			showEnvVarsInLog = 0;
 		};
-		6B79BF694796A8FF1D6BBFA3 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A78DC65BBADA7490EDF5CFE /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		86788804D8B8E1A7EA069836 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8BB418A390FB8A44404FB373 /* Upload Bugsnag dSYM */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1210,21 +1183,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/usr/bin/env ruby";
 			shellScript = "fork do\n  Process.setsid\n  STDIN.reopen(\"/dev/null\")\n  STDOUT.reopen(\"/dev/null\", \"a\")\n  STDERR.reopen(\"/dev/null\", \"a\")\n\n  require 'shellwords'\n\n  Dir[\"#{ENV[\"DWARF_DSYM_FOLDER_PATH\"]}/*/Contents/Resources/DWARF/*\"].each do |dsym|\n    system(\"curl -F dsym=@#{Shellwords.escape(dsym)} -F projectRoot=#{Shellwords.escape(ENV[\"PROJECT_DIR\"])} https://upload.bugsnag.com/\")\n  end\nend\n";
-			showEnvVarsInLog = 0;
-		};
-		B3A68A9C4198F479064B1912 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BFAEFC3400616F0A5E03D340 /* Upload Bugsnag dSYM */ = {
@@ -1242,34 +1200,103 @@
 			shellScript = "fork do\n  Process.setsid\n  STDIN.reopen(\"/dev/null\")\n  STDOUT.reopen(\"/dev/null\", \"a\")\n  STDERR.reopen(\"/dev/null\", \"a\")\n\n  require 'shellwords'\n\n  Dir[\"#{ENV[\"DWARF_DSYM_FOLDER_PATH\"]}/*/Contents/Resources/DWARF/*\"].each do |dsym|\n    system(\"curl -F dsym=@#{Shellwords.escape(dsym)} -F projectRoot=#{Shellwords.escape(ENV[\"PROJECT_DIR\"])} https://upload.bugsnag.com/\")\n  end\nend\n";
 			showEnvVarsInLog = 0;
 		};
-		C29762B08B5CED2110F70811 /* Copy Pods Resources */ = {
+		C64B39A49EB963313215B488 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CE15AF1E8E321714B05D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bugsnag-iOS/Bugsnag.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsnag.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbeiOS/Pods-CrashProbeiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79266F1BF4DA35B66A12DF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbe tvOS/Pods-CrashProbe tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA99CAAF56AE3096CEDDFA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashProbe tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80E3933C90E0306BA5971F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashProbe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81C8EE4212E41A2CC222B95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashProbe/Pods-CrashProbe-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9C8A62239DC86072C7F9E1D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1504,7 +1531,7 @@
 /* Begin XCBuildConfiguration section */
 		8AB151561D416C7200C9B218 /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D775A1287704B0A96469C4CE /* Pods-CrashProbe tvOS.debug_donotuse.xcconfig */;
+			baseConfigurationReference = D05C825F73AEE75D2285D24E /* Pods-CrashProbe tvOS.debug_donotuse.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -1557,7 +1584,7 @@
 		};
 		8AB151571D416C7200C9B218 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0F855F12C3A9293330FD01 /* Pods-CrashProbe tvOS.release.xcconfig */;
+			baseConfigurationReference = BEB44210FA21D6CA491A24C8 /* Pods-CrashProbe tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1641,6 +1668,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1680,6 +1708,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALIDATE_PRODUCT = YES;
@@ -1737,6 +1766,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1773,6 +1803,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "CrashProbe/CrashLib-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1796,6 +1827,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug_DoNotUse;
@@ -1816,19 +1848,21 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
 		FAF5BB8A16F7A69C008BDDDF /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 646AA21F91818662F17BED8B /* Pods-CrashProbeiOS.debug_donotuse.xcconfig */;
+			baseConfigurationReference = 8CEC95D384FFB2872C89B8F8 /* Pods-CrashProbeiOS.debug_donotuse.xcconfig */;
 			buildSettings = {
 				CLANG_OPTIMIZATION_PROFILE_FILE = "";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 372ZUL2ZB7;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1853,12 +1887,13 @@
 		};
 		FAF5BB8B16F7A69C008BDDDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B3D191612E435ABDBB2714C /* Pods-CrashProbeiOS.release.xcconfig */;
+			baseConfigurationReference = 64D08742C62587BF3CB006A6 /* Pods-CrashProbeiOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 372ZUL2ZB7;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2030,7 +2065,7 @@
 		};
 		FAF9BCE716D2924600C8BB7D /* Debug_DoNotUse */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B79CFC6631F62CBE3EB410B /* Pods-CrashProbe.debug_donotuse.xcconfig */;
+			baseConfigurationReference = 9D5523979B00138C44463F49 /* Pods-CrashProbe.debug_donotuse.xcconfig */;
 			buildSettings = {
 				"CLANG_ENABLE_OBJC_ARC[arch=i386]" = NO;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2047,13 +2082,14 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug_DoNotUse;
 		};
 		FAF9BCE816D2924600C8BB7D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0154F085EA83B6A0C2955A /* Pods-CrashProbe.release.xcconfig */;
+			baseConfigurationReference = 04B73061F63F489C0DE2DDE2 /* Pods-CrashProbe.release.xcconfig */;
 			buildSettings = {
 				"CLANG_ENABLE_OBJC_ARC[arch=i386]" = NO;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -2070,6 +2106,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
