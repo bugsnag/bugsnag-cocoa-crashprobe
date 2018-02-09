@@ -1,1 +1,0 @@
-../../../../../bugsnag-cocoa/Source/BugsnagConfiguration.h

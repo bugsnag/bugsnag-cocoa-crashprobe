@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'CrashProbeiOS' do
-  platform :ios, "7.1"
+  platform :ios, "8.0"
   pod 'Bugsnag', :path => "../bugsnag-cocoa"
 end
 
